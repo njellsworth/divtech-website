@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | Divtech</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">Div<span>tech</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <div class="nav-right">
+        <a href="contact.html" class="btn btn-primary">Get Started</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <div class="page-header">
+    <div class="container">
+      <span class="section-label" style="color:var(--blue-light);">Let's Talk</span>
+      <h1>Start Building Your Pipeline</h1>
+      <p>Book a free 30-minute strategy call or send us a message. We'll get back to you within one business day.</p>
+    </div>
+  </div>
+
+  <!-- CONTACT SECTION -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- LEFT: INFO -->
+        <div>
+          <span class="section-label">Get in Touch</span>
+          <h2 style="margin-bottom:1rem;">We'd Love to<br>Hear From You</h2>
+          <p style="margin-bottom:2.5rem;">Whether you're ready to get started or just exploring your options, our team is here to help you figure out the best path forward.</p>
+
+          <div class="contact-info-item">
+            <div class="contact-icon">
+              <svg fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div>
+              <h4>Email Us</h4>
+              <p>hello@divtech.com</p>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <div class="contact-icon">
+              <svg fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div>
+              <h4>Call Us</h4>
+              <p>(800) 555-0198</p>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <div class="contact-icon">
+              <svg fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div>
+              <h4>Response Time</h4>
+              <p>Within 1 business day</p>
+            </div>
+          </div>
+
+          <div style="background:var(--off-white); border-radius:var(--radius-lg); padding:1.75rem; border:1px solid var(--border); margin-top:1rem;">
+            <h4 style="margin-bottom:0.5rem;">Prefer a Call?</h4>
+            <p style="font-size:0.92rem; margin-bottom:1.25rem;">Book a 30-minute strategy session directly on our calendar and we'll come prepared with ideas specific to your business.</p>
+            <a href="#" class="btn btn-primary" style="width:100%; justify-content:center;">Schedule a Call</a>
+          </div>
+        </div>
+
+        <!-- RIGHT: FORM -->
+        <div class="card" style="padding:2.5rem;">
+          <h3 style="margin-bottom:0.5rem;">Send Us a Message</h3>
+          <p style="font-size:0.92rem; margin-bottom:2rem;">Fill out the form below and a member of our team will be in touch shortly.</p>
+
+          <form>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" placeholder="John" />
+              </div>
+              <div class="form-group">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" placeholder="Smith" />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Work Email</label>
+              <input type="email" id="email" placeholder="john@company.com" />
+            </div>
+
+            <div class="form-group">
+              <label for="company">Company Name</label>
+              <input type="text" id="company" placeholder="Your Company" />
+            </div>
+
+            <div class="form-group">
+              <label for="size">Company Size</label>
+              <select id="size">
+                <option value="" disabled selected>Select your team size</option>
+                <option>1–10 employees</option>
+                <option>11–50 employees</option>
+                <option>51–200 employees</option>
+                <option>201–500 employees</option>
+                <option>500+ employees</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="interest">I'm interested in...</label>
+              <select id="interest">
+                <option value="" disabled selected>Select a service</option>
+                <option>Lead Generation</option>
+                <option>Cold Outreach Campaigns</option>
+                <option>SDR-as-a-Service</option>
+                <option>Account-Based Marketing</option>
+                <option>Full Outbound Program</option>
+                <option>Not sure — let's talk</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" placeholder="Tell us about your current pipeline challenges and what you're hoping to achieve..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-lg" style="width:100%; justify-content:center;">Send Message</button>
+            <p style="font-size:0.8rem; text-align:center; margin-top:1rem;">We respect your privacy. No spam, ever.</p>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST STRIP -->
+  <div class="stats-bar">
+    <div class="container stats-bar-inner">
+      <div class="stat-item"><div class="stat-num">200+</div><div class="stat-label">Clients Served</div></div>
+      <div class="stat-item"><div class="stat-num">48 hrs</div><div class="stat-label">Campaign Launch Time</div></div>
+      <div class="stat-item"><div class="stat-num">4.9★</div><div class="stat-label">Average Client Rating</div></div>
+      <div class="stat-item"><div class="stat-num">No</div><div class="stat-label">Long-Term Contracts</div></div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">Div<span>tech</span></a>
+          <p>Professional outbound prospecting that drives real pipeline for ambitious businesses.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Services</h5>
+          <ul class="footer-links">
+            <li><a href="#">Lead Generation</a></li>
+            <li><a href="#">Cold Outreach</a></li>
+            <li><a href="#">SDR-as-a-Service</a></li>
+            <li><a href="#">ABM Campaigns</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Get Started</h5>
+          <ul class="footer-links">
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="contact.html">Book a Call</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr class="footer-divider" />
+      <div class="footer-bottom">
+        <p>&copy; 2026 Divtech. All rights reserved.</p>
+        <p>Built for growth.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
