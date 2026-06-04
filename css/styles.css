@@ -188,14 +188,14 @@ p { color: var(--text-muted); }
 .cta-btns { display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; }
 
 /* ── PRICING ── */
-.pricing-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.75rem; align-items: start; }
+.pricing-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; align-items: start; }
 .pricing-card {
   background: var(--white); border-radius: var(--radius-lg);
   padding: 2.5rem 2rem; border: 1px solid var(--border); box-shadow: var(--shadow-sm);
 }
 .pricing-card.featured {
   background: var(--blue); border-color: var(--blue);
-  box-shadow: var(--shadow-lg); transform: scale(1.04);
+  box-shadow: var(--shadow-lg);
 }
 .pricing-card.featured h3,
 .pricing-card.featured .pricing-price,
