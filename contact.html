@@ -23,8 +23,16 @@
       <div class="nav-right">
         <a href="contact.html" class="btn btn-primary">Get Started</a>
       </div>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
     </div>
   </nav>
+  <script>
+    document.querySelector('.nav-toggle').addEventListener('click', function() {
+      document.querySelector('.nav-links').classList.toggle('open');
+    });
+  </script>
 
   <!-- PAGE HEADER -->
   <div class="page-header">
