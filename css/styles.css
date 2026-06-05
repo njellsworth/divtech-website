@@ -339,8 +339,17 @@ textarea { resize: vertical; min-height: 140px; }
   .nav-links a { display: block; padding: 0.85rem 0; font-size: 1rem; }
   .nav-toggle { display: flex; }
   .nav-right { display: none; }
-  .hero-stats { gap: 2rem; }
+  .hero-stats { gap: 2rem; justify-content: center; }
+  .hero-inner { text-align: center; }
+  .hero h1, .hero p { text-align: center; }
+  .hero-cta { justify-content: center; }
   .stats-bar-inner { justify-content: center; }
+  .section-header { text-align: center; }
+  .why-list { text-align: left; }
   .footer-grid { grid-template-columns: 1fr; gap: 2rem; }
+  .footer-brand, .footer-col { text-align: center; }
+  .footer-links { align-items: center; }
+  .footer-bottom { flex-direction: column; gap: 0.5rem; text-align: center; }
   .form-row { grid-template-columns: 1fr; }
+  .cta-section { text-align: center; }
 }
