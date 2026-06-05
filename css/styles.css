@@ -208,15 +208,15 @@ p { color: var(--text-muted); }
   padding: 2.5rem 2rem; border: 1px solid var(--border); box-shadow: var(--shadow-sm);
 }
 .pricing-card.featured {
-  background: var(--blue); border-color: var(--blue);
+  background: #84affd; border-color: #84affd;
   box-shadow: var(--shadow-lg);
 }
 .pricing-card.featured h3,
 .pricing-card.featured .pricing-price,
 .pricing-card.featured .pricing-period,
 .pricing-card.featured p,
-.pricing-card.featured .pricing-features li { color: var(--white); }
-.pricing-card.featured .pricing-features li::before { color: rgba(255,255,255,0.8); }
+.pricing-card.featured .pricing-features li { color: var(--navy); }
+.pricing-card.featured .pricing-features li::before { color: var(--navy); }
 .pricing-badge {
   display: inline-block; background: rgba(255,255,255,0.2);
   color: var(--white); font-size: 0.75rem; font-weight: 700;
@@ -228,11 +228,12 @@ p { color: var(--text-muted); }
 .pricing-price { font-family: 'Montserrat', sans-serif; font-size: 2.8rem; font-weight: 800; color: var(--navy); line-height: 1; }
 .pricing-period { font-size: 0.9rem; color: var(--text-muted); margin-bottom: 1.75rem; margin-top: 0.25rem; }
 .pricing-divider { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
-.pricing-card.featured .pricing-divider { border-color: rgba(255,255,255,0.2); }
+.pricing-card.featured .pricing-divider { border-color: rgba(20,30,48,0.15); }
 .pricing-features { list-style: none; display: flex; flex-direction: column; gap: 0.85rem; margin-bottom: 2rem; }
 .pricing-features li { display: flex; align-items: flex-start; gap: 0.6rem; font-size: 0.93rem; color: var(--text-muted); }
 .pricing-features li::before { content: '✓'; font-weight: 700; color: var(--blue); flex-shrink: 0; margin-top: 0.05rem; }
-.pricing-card.featured .btn-outline-white { border-color: rgba(255,255,255,0.6); }
+.pricing-card.featured .btn-outline-white { border-color: var(--navy); color: var(--navy); }
+.pricing-card.featured .pricing-badge { background: rgba(20,30,48,0.15); color: var(--navy); }
 
 /* ── REVIEWS ── */
 .reviews-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.75rem; }
