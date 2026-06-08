@@ -128,7 +128,7 @@ p { color: var(--text-muted); }
   position: absolute; inset: 0;
   background: radial-gradient(ellipse at 70% 50%, rgba(26,111,191,0.18) 0%, transparent 65%);
 }
-.hero-inner { position: relative; z-index: 1; padding: 80px 0; text-align: center; }
+.hero-inner { position: relative; z-index: 1; padding: 50px 0; text-align: center; }
 .hero-badge {
   display: inline-flex; align-items: center; gap: 0.5rem;
   background: rgba(174,214,241,0.1); border: 1px solid rgba(174,214,241,0.25);
@@ -136,10 +136,10 @@ p { color: var(--text-muted); }
   font-size: 0.82rem; font-weight: 600; letter-spacing: 0.5px;
   margin-bottom: 1.8rem;
 }
-.hero h1 { color: var(--white); margin-bottom: 1.4rem; max-width: 700px; margin-left: auto; margin-right: auto; }
+.hero h1 { color: var(--white); margin-bottom: 1rem; max-width: 700px; margin-left: auto; margin-right: auto; }
 .hero h1 span { color: var(--blue-light); }
-.hero p { font-size: 1.15rem; color: rgba(255,255,255,0.72); max-width: 560px; margin-bottom: 2.5rem; margin-left: auto; margin-right: auto; }
-.hero-cta { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 4rem; justify-content: center; }
+.hero p { font-size: 1.15rem; color: rgba(255,255,255,0.72); max-width: 560px; margin-bottom: 1.5rem; margin-left: auto; margin-right: auto; }
+.hero-cta { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 1.75rem; justify-content: center; }
 .hero-stats { display: flex; gap: 3rem; flex-wrap: wrap; justify-content: center; }
 .hero-stat-num {
   font-family: 'Montserrat', sans-serif;
@@ -177,9 +177,9 @@ p { color: var(--text-muted); }
 .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; }
 
 /* ── CLIENTS BAR ── */
-.hero-clients { margin-top: 2rem; width: 100%; }
-.hero-stats { border-top: 1px solid rgba(255,255,255,0.12); padding-top: 2rem; margin-top: 2rem; }
-.hero-clients-label { font-size: 0.72rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: rgba(255,255,255,0.45); margin-bottom: 1.25rem; text-align: center; }
+.hero-clients { margin-top: 1.25rem; width: 100%; }
+.hero-stats { border-top: 1px solid rgba(255,255,255,0.12); padding-top: 1.25rem; margin-top: 1.25rem; }
+.hero-clients-label { font-size: 0.72rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: rgba(255,255,255,0.45); margin-bottom: 0.75rem; text-align: center; }
 .hero-clients-logos { display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; gap: 1rem; }
 .logo-pill { background: #ffffff; border-radius: 8px; padding: 6px 12px; width: 130px; height: 40px; display: flex; align-items: center; justify-content: center; opacity: 0.9; transition: opacity 0.2s; }
 .logo-pill:hover { opacity: 1; }
