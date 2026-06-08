@@ -171,11 +171,11 @@ p { color: var(--text-muted); }
 .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; }
 
 /* ── CLIENTS BAR ── */
-.clients-bar { background: var(--off-white); padding: 2.5rem 0; border-bottom: 1px solid var(--border); }
-.clients-label { text-align: center; font-size: 0.78rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--text-muted); margin-bottom: 1.75rem; }
-.clients-logos { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 2.5rem; }
-.clients-logos img { height: 30px; width: auto; filter: grayscale(100%); opacity: 0.55; mix-blend-mode: multiply; transition: opacity 0.2s, filter 0.2s; }
-.clients-logos img:hover { filter: grayscale(0%); opacity: 1; }
+.hero-clients { margin-top: 2.5rem; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.12); }
+.hero-clients-label { font-size: 0.75rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: rgba(255,255,255,0.45); margin-bottom: 1.25rem; text-align: center; }
+.hero-clients-logos { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 2rem; }
+.hero-clients-logos img { height: 28px; width: auto; opacity: 0.85; transition: opacity 0.2s; }
+.hero-clients-logos img:hover { opacity: 1; }
 
 /* ── SERVICES ── */
 .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.75rem; }
