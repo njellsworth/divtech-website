@@ -177,7 +177,8 @@ p { color: var(--text-muted); }
 .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; }
 
 /* ── CLIENTS BAR ── */
-.hero-clients { margin-top: 2.5rem; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.12); width: 100%; }
+.hero-clients { margin-top: 2rem; width: 100%; }
+.hero-stats { border-top: 1px solid rgba(255,255,255,0.12); padding-top: 2rem; margin-top: 2rem; }
 .hero-clients-label { font-size: 0.72rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: rgba(255,255,255,0.45); margin-bottom: 1.25rem; text-align: center; }
 .hero-clients-logos { display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; gap: 1rem; }
 .logo-pill { background: #ffffff; border-radius: 8px; padding: 6px 12px; width: 130px; height: 40px; display: flex; align-items: center; justify-content: center; opacity: 0.9; transition: opacity 0.2s; }
