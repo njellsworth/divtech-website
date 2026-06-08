@@ -98,27 +98,27 @@
             <div class="form-row">
               <div class="form-group">
                 <label for="first-name">First Name</label>
-                <input type="text" id="first-name" placeholder="John" />
+                <input type="text" id="first-name" name="first-name" placeholder="John" />
               </div>
               <div class="form-group">
                 <label for="last-name">Last Name</label>
-                <input type="text" id="last-name" placeholder="Smith" />
+                <input type="text" id="last-name" name="last-name" placeholder="Smith" />
               </div>
             </div>
 
             <div class="form-group">
               <label for="email">Work Email</label>
-              <input type="email" id="email" placeholder="john@company.com" />
+              <input type="email" id="email" name="email" placeholder="john@company.com" />
             </div>
 
             <div class="form-group">
               <label for="company">Company Name</label>
-              <input type="text" id="company" placeholder="Your Company" />
+              <input type="text" id="company" name="company" placeholder="Your Company" />
             </div>
 
             <div class="form-group">
               <label for="size">Company Size</label>
-              <select id="size">
+              <select id="size" name="company-size">
                 <option value="" disabled selected>Select your team size</option>
                 <option>1–10 employees</option>
                 <option>11–50 employees</option>
@@ -130,7 +130,7 @@
 
             <div class="form-group">
               <label for="interest">I'm interested in...</label>
-              <select id="interest">
+              <select id="interest" name="interest">
                 <option value="" disabled selected>Select a service</option>
                 <option>Lead Generation</option>
                 <option>Cold Outreach Campaigns</option>
@@ -143,7 +143,7 @@
 
             <div class="form-group">
               <label for="message">Message</label>
-              <textarea id="message" placeholder="Tell us about your current pipeline challenges and what you're hoping to achieve..."></textarea>
+              <textarea id="message" name="message" placeholder="Tell us about your current pipeline challenges and what you're hoping to achieve..."></textarea>
             </div>
 
             <button type="submit" class="btn btn-primary btn-lg" style="width:100%; justify-content:center;">Send Message</button>
