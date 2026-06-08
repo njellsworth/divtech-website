@@ -174,7 +174,7 @@ p { color: var(--text-muted); }
 .clients-bar { background: var(--off-white); padding: 2.5rem 0; border-bottom: 1px solid var(--border); }
 .clients-label { text-align: center; font-size: 0.78rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--text-muted); margin-bottom: 1.75rem; }
 .clients-logos { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 2.5rem; }
-.clients-logos img { height: 30px; width: auto; filter: grayscale(100%); opacity: 0.55; transition: opacity 0.2s, filter 0.2s; }
+.clients-logos img { height: 30px; width: auto; filter: grayscale(100%); opacity: 0.55; mix-blend-mode: multiply; transition: opacity 0.2s, filter 0.2s; }
 .clients-logos img:hover { filter: grayscale(0%); opacity: 1; }
 
 /* ── SERVICES ── */
