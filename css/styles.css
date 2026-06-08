@@ -179,7 +179,7 @@ p { color: var(--text-muted); }
 .logo-pill { background: #ffffff; border-radius: 8px; padding: 6px 12px; width: 130px; height: 40px; display: flex; align-items: center; justify-content: center; opacity: 0.9; transition: opacity 0.2s; }
 .logo-pill:hover { opacity: 1; }
 .logo-pill img { max-width: 100%; max-height: 100%; object-fit: contain; background: none; }
-.logo-pill-sm { padding: 2px 6px; }
+.logo-pill-sm { padding: 0; width: 150px; height: 50px; }
 
 /* ── SERVICES ── */
 .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.75rem; }
