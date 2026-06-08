@@ -184,7 +184,8 @@ p { color: var(--text-muted); }
 .logo-pill-2x img { transform: scale(2); }
 
 /* ── SERVICES ── */
-.services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.75rem; }
+.services-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 1.75rem; }
+.services-grid .card { width: calc(33.33% - 1.2rem); }
 
 /* ── STATS BAR ── */
 .stats-bar { background: var(--blue); padding: 3rem 0; }
@@ -350,7 +351,8 @@ textarea { resize: vertical; min-height: 140px; }
 }
 @media (max-width: 768px) {
   .section { padding: 64px 0; }
-  .grid-2, .grid-3, .services-grid, .pricing-grid, .reviews-grid, .values-grid { grid-template-columns: 1fr; }
+  .grid-2, .grid-3, .pricing-grid, .reviews-grid, .values-grid { grid-template-columns: 1fr; }
+  .services-grid .card { width: 100%; }
   .nav-links {
     display: none;
     flex-direction: column;
