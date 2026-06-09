@@ -221,6 +221,7 @@ p { color: var(--text-muted); }
 .cta-btns { display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; }
 
 /* ── PRICING ── */
+.pricing-banner { background: rgba(132,175,253,0.12); border: 1px solid rgba(132,175,253,0.35); border-radius: 12px; padding: 1.25rem 1.75rem; margin-bottom: 2.5rem; font-size: 0.95rem; color: var(--text-muted); line-height: 1.7; text-align: center; }
 .pricing-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; align-items: start; }
 .pricing-card {
   background: var(--white); border-radius: var(--radius-lg);
