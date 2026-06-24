@@ -222,7 +222,8 @@ p { color: var(--text-muted); }
 
 /* ── PRICING ── */
 .pricing-banner { background: rgba(132,175,253,0.12); border: 1px solid rgba(132,175,253,0.35); border-radius: 12px; padding: 1.25rem 1.75rem; margin-bottom: 2.5rem; font-size: 0.95rem; color: var(--text-muted); line-height: 1.7; text-align: center; }
-.pricing-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; align-items: start; }
+.pricing-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem; align-items: start; }
+.pricing-grid .pricing-card { width: calc(33.33% - 1.2rem); }
 .pricing-card {
   background: var(--white); border-radius: var(--radius-lg);
   padding: 2.5rem 2rem; border: 1px solid var(--border); box-shadow: var(--shadow-sm);
@@ -349,16 +350,18 @@ textarea { resize: vertical; min-height: 140px; }
 
 /* ── RESPONSIVE ── */
 @media (max-width: 1024px) {
-  .grid-3, .services-grid, .pricing-grid, .reviews-grid { grid-template-columns: repeat(2, 1fr); }
+  .grid-3, .services-grid, .reviews-grid { grid-template-columns: repeat(2, 1fr); }
   .grid-4 { grid-template-columns: repeat(2, 1fr); }
   .footer-grid { grid-template-columns: 1fr 1fr; }
   .pricing-card.featured { transform: none; }
+  .pricing-grid .pricing-card { width: calc(50% - 1rem); }
   .why-grid, .about-grid, .contact-grid { grid-template-columns: 1fr; gap: 3rem; }
 }
 @media (max-width: 768px) {
   .section { padding: 64px 0; }
-  .grid-2, .grid-3, .pricing-grid, .reviews-grid, .values-grid { grid-template-columns: 1fr; }
+  .grid-2, .grid-3, .reviews-grid, .values-grid { grid-template-columns: 1fr; }
   .services-grid .card { width: 100%; }
+  .pricing-grid .pricing-card { width: 100%; }
   .nav-links {
     display: none;
     flex-direction: column;
